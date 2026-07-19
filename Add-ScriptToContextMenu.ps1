@@ -1,4 +1,4 @@
-# Check if the script is running with Administrator privileges
+﻿# Check if the script is running with Administrator privileges
 ## This is required to modify the System Registry for context menu items
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
     Write-Warning "Administrator rights are required to configure the registry."
