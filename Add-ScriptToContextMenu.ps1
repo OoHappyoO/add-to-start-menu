@@ -46,7 +46,7 @@ catch {
 try {
     # Define the registry path for .exe context menu
     $RegPath = "Registry::HKEY_CLASSES_ROOT\exefile\shell\AddShortcutToStart"
-    $MenuText = "Add Shortcut to Start Menu" # Text displayed in the context menu
+    $MenuText = "添加快捷方式至开始菜单" # Text displayed in the context menu
     
     # Define the command to execute
     ## Uses -WindowStyle Hidden to avoid showing the console window
